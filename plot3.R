@@ -14,7 +14,7 @@ plot3 <- function(){
   plot(data_and_time, data_clear[,7], type="n", xlab="", ylab="Energy sub metering")
   points(data_and_time, data_clear[,7], type="l", col="black")
   points(data_and_time, data_clear[,8], type="l", col="red")
-  points(data_and_time, data_clear[,7], type="l", col="blue")
+  points(data_and_time, data_clear[,9], type="l", col="blue")
   legend("topright", pch="-", col=c("black", "red", "blue"), legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
   
   dev.off()
